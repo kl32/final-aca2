@@ -7,7 +7,7 @@ import {
     Button,
     GlobalStyles,
     H0,
-    H1
+    H1,
   } from "@bigcommerce/big-design";
 
 import NavName from "./navigation";

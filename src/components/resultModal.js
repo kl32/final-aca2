@@ -10,12 +10,13 @@ class ResultModal extends React.Component {
 
     state = {
         isOpen: true
-
     }
     
       closeModal = () => {
         this.setState({ isOpen: false });
       };  
+
+      
 
     render(){
         console.log('props',this.props);
@@ -38,7 +39,7 @@ class ResultModal extends React.Component {
                 </Modal.Body>
       
                 <Modal.Actions>
-                <Button variant="subtle" onClick={this.closeModal}>SAVE</Button>
+                <Button variant="subtle" onClick={this.saveFood}>SAVE</Button>
                   <Button variant="subtle" onClick={this.closeModal}>OK</Button>
     
                 </Modal.Actions>
